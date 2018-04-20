@@ -32,10 +32,10 @@ export default class Main extends React.Component {
         return (<Router>
             <div className={`main bg-faded`}>
                 <div className='container'>
-                    <Navbar color="faded" light="light" expand="md">
+                    <Navbar color="faded" light expand="md">
                         <NavbarBrand className='text-info title' href="/">THE FOOD</NavbarBrand>
                         <NavbarToggler className="mr-2" onClick={this.handleNavbarToggle}/>
-                        <Collapse isOpen={this.state.navbarToggle} navbar="navbar">
+                        <Collapse isOpen={this.state.navbarToggle} navbar>
                             <Nav >
                                 <NavItem >
                                     <NavLink className='hoverDay navbar-text' tag={Link} to='/'>Home</NavLink>
@@ -55,7 +55,7 @@ export default class Main extends React.Component {
                         </Collapse>
                     </Navbar>
                 </div>
-                <Route exact="exact" path="/" render={() => (<Home/>)}/>
+                <Route exact path="/" render={() => (<Home/>)}/>
             </div>
 
         </Router>);

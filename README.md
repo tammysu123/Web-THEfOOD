@@ -10,6 +10,7 @@
 
 3. FIX THE REFRESH BUG 04.21 by ANNY
 
+4. FIX THE BUG OF HOMEPAGE'S BACKGROUND 04.21 by ANNY 
 ---
 
 ## Recommend Commit Description  ##
