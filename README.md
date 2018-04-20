@@ -8,6 +8,8 @@
 
 2. ADD THE HOME PAGE 04.20 by TY
 
+3. FIX THE REFRESH BUG 04.21 by ANNY
+
 ---
 
 ## Recommend Commit Description  ##
@@ -17,6 +19,8 @@
 1. FIX_HomePage
 
 2. ADD_Navbar
+
+3. FIX_RefreshBug
 
 ---
 
