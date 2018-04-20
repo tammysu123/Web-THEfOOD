@@ -63,7 +63,7 @@ module.exports = {
     devServer: {
         contentBase: distPath,
         compress: true,
-        port: 8888
+        port: 8887
     },
     devtool: 'source-map'
 };

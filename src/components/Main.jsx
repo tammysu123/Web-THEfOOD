@@ -49,7 +49,7 @@ export default class Main extends React.Component {
                                     <NavLink className='hoverDay navbar-text' tag={Link} to='/signIn'>Sign In</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className='hoverDay navbar-text' tag={Link} to='/signOut'>Sign Out</NavLink>
+                                    <NavLink className='hoverDay navbar-text' tag={Link} to='/signOut'>Sign Up</NavLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>
