@@ -33,7 +33,7 @@ export default class Main extends React.Component {
             <div className={`main bg-faded`}>
                 <div className='container'>
                     <Navbar color="faded" light="light" expand="md">
-                        <NavbarBrand className='text-info' href="/">THE FOOD</NavbarBrand>
+                        <NavbarBrand className='text-info title' href="/">THE FOOD</NavbarBrand>
                         <NavbarToggler className="mr-2" onClick={this.handleNavbarToggle}/>
                         <Collapse isOpen={this.state.navbarToggle} navbar="navbar">
                             <Nav >
