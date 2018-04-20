@@ -1,4 +1,4 @@
-# Web-THEfOOD #
+# WEB - THE FOOD WEB APP #
 
 ---
 
@@ -22,4 +22,4 @@
 
 ## Deadline ##
 
-<font color=red>*2018.04.26*</font>
+*2018.04.26*
