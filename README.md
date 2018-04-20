@@ -22,4 +22,4 @@
 
 ## Deadline ##
 
-*<font color=red>2018.04.26</font>*
+<font color=red>*2018.04.26*</font>
