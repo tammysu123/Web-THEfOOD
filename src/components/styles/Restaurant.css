@@ -1,0 +1,36 @@
+.storecard{
+  margin: 10px 0;
+}
+.topblock{
+  height: 80%;
+  width: 100vw;
+}
+.topimage{
+  background-color: white;
+  padding: 0 5%;
+  height: 100%;
+  width: 100%;
+}
+.toptext{
+  text-align: center;
+  color: white;
+  background-color: #4d4d4d;
+  font-size: 20px;
+  line-height: 50px;
+  height: 50px;
+}
+.topbuttonlist{
+  text-align: center;
+}
+.topbutton{
+  display: inline-block;
+  width: 25%;
+  border-bottom: 5px solid rgb(136,0,21) !important;
+}
+.activebutton{
+  color: white;
+  height: 60px;
+  display: inline-block;
+  width: 25%;
+  background-color: rgb(136,0,21) !important;
+}

@@ -10,7 +10,9 @@
 
 3. FIX THE REFRESH BUG 04.21 by ANNY
 
-4. FIX THE BUG OF HOMEPAGE'S BACKGROUND 04.21 by ANNY 
+4. FIX THE BUG OF HOMEPAGE'S BACKGROUND 04.21 by ANNY
+
+5. ADD THE RESTAURANT PAGE 04.24 by yufong
 ---
 
 ## Recommend Commit Description  ##
@@ -22,6 +24,8 @@
 2. ADD_Navbar
 
 3. FIX_RefreshBug
+
+4. ADD_Restaurant
 
 ---
 

@@ -15,7 +15,7 @@ import {
 import './styles/Main.css';
 
 import Home from 'components/Home.jsx';
-
+import Restaurant from 'components/Restaurant.jsx';
 export default class Main extends React.Component {
     constructor(props) {
         super(props);
@@ -56,6 +56,9 @@ export default class Main extends React.Component {
                     </Navbar>
                 </div>
                 <Route exact path="/" render={() => (<Home/>)}/>
+                <Route exact path="/restaurant" render={() => (
+                    <Restaurant/>
+                    )}/>
             </div>
 
         </Router>);

@@ -16,7 +16,7 @@ import {
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from 'react-image-gallery';
 import "./styles/Home.css"
-
+import Restaurant from 'components/Restaurant.jsx';
 export default class Home extends React.Component {
 
     constructor(props) {
@@ -60,18 +60,22 @@ export default class Home extends React.Component {
                             <Row>
                                 <Col xs="6">
                                     <Card>
+                                      <Link to="/restaurant">
                                         <img width="100%" src="https://images.unsplash.com/photo-1497289955593-2cc43390ad7c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6d8710fda28e90eb9243b5d4fd9ea6f9&auto=format&fit=crop&w=230&q=80" alt="Card image cap"/>
                                         <CardBody>
                                             <CardText className="TextCenter">小吃</CardText>
                                         </CardBody>
+                                      </Link>
                                     </Card>
                                 </Col>
                                 <Col xs="6">
                                     <Card>
+                                      <Link to="/restaurant">
                                         <img width="100%" src="https://images.unsplash.com/photo-1487499648633-2ade40e0f769?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5f3aeab447bf6cbbe0eb5e7a9b5f83ad&auto=format&fit=crop&w=230&q=80" alt="Card image cap"/>
                                         <CardBody>
                                             <CardText className="TextCenter">水木</CardText>
                                         </CardBody>
+                                      </Link>
                                     </Card>
                                 </Col>
                             </Row>
@@ -79,10 +83,12 @@ export default class Home extends React.Component {
                             <Row >
                                 <Col xs="6">
                                     <Card>
+                                      <Link to="/restaurant">
                                         <img width="100%" src="https://images.unsplash.com/photo-1465086325773-459c6cfbb29f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=598097b1d2184794d6d7578ebe9a15c0&auto=format&fit=crop&w=230&q=80" alt="Card image cap"/>
                                         <CardBody>
                                             <CardText className="TextCenter">風雲</CardText>
                                         </CardBody>
+                                      </Link>
                                     </Card>
                                 </Col>
                                 <Col xs="6">
@@ -97,7 +103,9 @@ export default class Home extends React.Component {
                         </Container>
                     </Col>
                 </Row>
+
             </Container>
+
         </div>);
     };
 }
